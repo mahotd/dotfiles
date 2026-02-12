@@ -1,0 +1,11 @@
+theme = custom
+font-family = "FiraCode Nerd Font"
+font-size = 13
+
+window-decoration = false
+
+keybind = ctrl+shift+o=unbind
+keybind = ctrl+shift+e=unbind
+
+keybind = ctrl+shift+e=new_split:right
+keybind = ctrl+shift+h=new_split:down
