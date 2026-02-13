@@ -16,9 +16,10 @@ setopt HIST_IGNORE_SPACE
 # path
 export PATH="$HOME/.local/bin:$PATH"
 
-# poetry
+# completion
 fpath+=~/.zfunc
 autoload -Uz compinit && compinit
+setopt GLOB_DOTS
 
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
