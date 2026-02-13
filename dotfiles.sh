@@ -5,6 +5,7 @@ CONFIG_DIR="$(cd "$(dirname "$0")" && pwd)"
 
 FILES=(
   .zshrc
+  .zsh_plugins.txt
 )
 
 for f in "${FILES[@]}"; do
