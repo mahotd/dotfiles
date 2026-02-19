@@ -32,6 +32,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
+# rust
+[ -f $HOME/.cargo/env ] && source $HOME/.cargo/env
+
 # aliases
 [ -f $HOME/.config/.zsh_aliases ] && source $HOME/.config/.zsh_aliases
 [ -f $HOME/.config/.zsh_aliases_private ] && source $HOME/.config/.zsh_aliases_private
