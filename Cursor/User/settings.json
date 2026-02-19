@@ -34,5 +34,10 @@
     },
     "git.confirmSync": false,
     "terminal.integrated.cursorBlinking": true,
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "cursor.cpp.disabledLanguages": [
+        "plaintext"
+    ]
 }
