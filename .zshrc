@@ -1,3 +1,7 @@
+# completion
+fpath+=~/.zfunc
+autoload -Uz compinit && compinit
+
 # antidote
 source ~/.antidote/antidote.zsh
 antidote load
@@ -16,9 +20,7 @@ setopt HIST_IGNORE_SPACE
 # path
 export PATH="$HOME/.local/bin:$PATH"
 
-# completion
-fpath+=~/.zfunc
-autoload -Uz compinit && compinit
+# include hidden files
 setopt GLOB_DOTS
 
 # pyenv
